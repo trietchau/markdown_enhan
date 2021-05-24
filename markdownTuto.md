@@ -60,7 +60,7 @@
 
 - There are two types of lists in the known universe: unordered and ordered
 
-#### Unordered
+##### Unordered
 - To create an unordered list, you'll want to preface each item in the list with an `*` or `-`. Each list item also gets its own line. For example:
 	```
 	* Milk
@@ -74,12 +74,85 @@
 	* Salmon
 	* Butter
 
-#### Ordered
+##### Ordered
+- An ordered list is prefaced with numbers. For example:
+	```
+	1. Crack three eggs over a bowl
+	2. Pour a gallon of milk into the bowl
+	3. Rub the salmon vigorously with butter
+	4. Drop the salmon into the egg-milk bowl
+	```
+
+	1. Crack three eggs over a bowl
+	2. Pour a gallon of milk into the bowl
+	3. Rub the salmon vigorously with butter
+	4. Drop the salmon into the egg-milk bowl
+
+- You can choose to add italics, bold, or links within lists, for example:
+	```
+	* Azalea (_Ericaceae Rhododendron_)
+	* Chrysanthemum (_Anthemideae Chrysanthemum_)
+	* Dahlia (_Coreopsideae Dahlia_)
+	```
+
+	* Azalea (_Ericaceae Rhododendron_)
+	* Chrysanthemum (_Anthemideae Chrysanthemum_)
+	* Dahlia (_Coreopsideae_ ___Dahlia___)
+
+- You might need to make a list with more depth,or to nest one list within another. All you have to do is to taab each asterisk one space more than the preceding item. For example:
+	```
+	* Calculus
+    	* A professor
+    	* Has no hair
+    	* Often wears green
+	* Castafiore
+    	* An opera singer
+    	* Has white hair
+    	* Is possibly mentally unwell
+	```
+	* Calculus
+    	* A professor
+    	* Has no hair
+    	* Often wears green
+	* Castafiore
+    	* An opera singer
+    	* Has white hair
+    	* Is possibly mentally unwell
+
+### Paragraph
+
+   - A soft break is to seperate lines without a big gap. You can accomplish this by inserting two spaces after each new line. This is not possible to see, since spaces are invisible, but it'd look something like this:
+
+	 ```
+	 Do I contradict myself?··
+	 Very well then I contradict myself,··
+	 (I am large, I contain multitudes.)
+	 ```
+
+__Without line break:__
+```
+this line need to be seperated from the next
+the next line
+```	
+this line need to be seperated from the next
+the next line	
+
+__With big line:__
+```	
+this line need to be close to the next one to flow cohesively.
+    
+this line is too far away from the one above to flow cohesively.
+```	
+this line need to be close to the next one to flow cohesively.
+    
+this line is too far away from the one above to flow cohesively.
 
 
-
-
-
-
-
+__With line break:__
+```
+this sentence need to be close to the next one for cohesiveness.  
+this sentence is close from the one above so it flows cohesively.
+```
+this sentence need to be close to the next one for cohesiveness.  
+this sentence is close from the one above so it flows cohesively.
 
